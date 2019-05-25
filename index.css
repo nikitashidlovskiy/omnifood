@@ -1,0 +1,407 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif
+}
+header {
+    height: 80px;
+}
+
+.logo {
+    float: left;
+    margin-left: 300px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.logo-img{
+    width: 65px;
+    height: 65px;
+}
+
+.nav {
+    margin-left: 400px;
+    margin-top: 25px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: rgb(156, 156, 156);
+}
+
+.nav-item {
+    float: left;
+    margin-right: 20px;
+}
+
+.intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.intro-items {
+    position: absolute;
+    left: 200px;
+    top: 450px;
+}
+
+.intro-text {
+    font-size: 50px;
+    color: white;
+}
+
+.intro-button2 {
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+.intro-button2:hover {
+    background-color: orange;
+    color: white;
+}
+
+.intro-button1 {
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: orange;
+    background-color:  rgba(0, 0, 0, 0);
+}
+.intro-button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.about {
+    margin: 20px 20% 0 20%;
+    text-align: center;
+    height: 400px;
+}
+
+hr {
+    width: 60px;
+    margin-left: 48%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-color: orange;
+}
+
+.about-text {
+    font-size: 20px;
+    padding-bottom: 120px;
+    color: darkgrey;;
+}
+
+h1 {
+    color: grey;
+    font-size: 35px;
+}
+
+.text-column{
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    float :left;
+    text-align:left;
+    width: 20%;
+    padding-left: 5%;
+}
+
+.text-columns p{
+    padding-bottom: 10px;
+
+}
+
+.food-galery{
+    position: relative;
+    padding-top: 200px;
+}
+
+.food-galery img{
+    width: 25%;
+}
+
+h2{
+    text-align: center;
+}
+
+.download-page{
+    background-color: ghostwhite;
+    height: 600px;
+}
+
+.iPhone {
+    width: 12%;
+    margin-left: 30%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+.download-page-number {
+    width: 10%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.download-page-text {
+    float: left;
+    width: 80%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+
+}
+
+.download-page-paragraphs {
+    display: inline-block;
+    margin: 3%;
+}
+
+.download-app {
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 11%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+.download-android {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 9.5%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+.numbers {
+    width: 30%;
+    text-align: left;
+    float: left;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.cities-item img{
+    height: 100px;
+    padding-bottom: 50px;
+}
+
+.cities-item{
+    display: block;
+    width: 20%;
+    padding-left: 5%;
+    float :left;
+    text-align:left;
+    font-size: 20px;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+h4{
+    text-align: center;
+    font-size: 35px;
+}
+
+.cities{
+    height: 500px;
+    margin: 20px 20% 0 20%;
+}
+
+.opinions img{
+    height: 1200px;
+}
+
+.opinions{
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5) inset;
+    background-image: url(back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-attachment: fixed;
+}
+
+
+.opinions-item{
+    width: 25%;
+    padding-left: 7%;
+    float :left;
+    text-align:left;
+}
+
+.opinions-item p{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.opinions-item img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cost{
+    background-color: gainsboro;
+    width: 1600px;
+    height: 400px;
+}
+
+.cost-item{
+    width: 10%;
+    padding-left: 20%;
+    float :left;
+    text-align:left;
+}
+
+h5{
+    text-align: center;
+    font-size: 35px; 
+}
+
+.first-item{
+    width: 200px;
+    height:100px;
+    background-color: whitesmoke;
+    border-bottom:1px solid gray; 
+}
+
+.second-item{
+    width: 200px;
+    height:110px;
+    background-color:white;
+    border-bottom:1px solid gray; 
+}
+
+.cost-item p{
+    padding-top: 10px;
+}
+
+.cost-button{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    color: orange;
+    background-color: whitesmoke;
+}
+
+.cost-button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.button-place{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    background-color: white;
+}
+
+.footer-menu-nav {
+    margin: 1%;
+}
+
+.footer-icon {
+    float: right;
+    margin: 1%;
+    width: 1%;
+}
+
+footer {
+    background-color: rgb(27, 27, 27);
+    color: grey;
+}
+
+.footer-heart-icon {
+    width: 1%;
+}
+
+.footer-menu {
+    float: left;
+    margin: 3%;
+    margin-left: 20%;
+}
+
+.footer-menu-text {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.text-column img{
+    height: 60px;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-left: 20%;
+}
+
+.second-item img{
+    height: 20px;
+    float: left;
+    padding-top: 2px;
+}
+
+.cities-logo img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    float: left;
+    margin-left: -20px;
+}
+    
+
+.input, .input-text {
+    float: left;
+    width: 600px;
+    height: 30px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+}
+
+.feedback {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input-text {
+    height: 50px;
+}
+
+.form-text {
+    float: left;
+    margin-right: 100px;
+    margin-left: 250px;
+    width: 150px;
+}
+
+.submit {
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 900px
+}
+
+.submit {
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+.submit:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+
+
